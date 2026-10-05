@@ -10,6 +10,8 @@ Galguard 在 GalShelf 0.2.6 中以 **GalShelf Guard** 名称介绍，是可选�
 
 > **现有版本**：GalShelf 0.2.6 的说明将 Guard 标为 **0.1.0 预发布测试版**。本页集中介绍这些已有功能，不发布新安装包，也不改变下载或信任配置。
 
+**未来开发**：[Galguard 未来开发指南](docs/Galguard_Development_Guide.md)（中文导读 / English specification）包含技术调研、主动防护边界、恢复架构、成本模型和分阶段验收计划；这些是开发提案，不代表当前版本已支持。
+
 ## 文件基准与变化检查
 
 为已安装作品记录经确认的文件清单，检查程序文件是否被修改、缺失或新增。新的变化不能仅因为文件仍能识别成同一部作品就自动被接受。
@@ -47,6 +49,8 @@ Guard 是可选组件；不安装时，GalShelf 仍能管理游戏，并保留�
 Galguard is introduced as **GalShelf Guard** in GalShelf 0.2.6. It is an optional, separate security companion. Work identification answers which work a file belongs to; Guard focuses on changes, security findings and handling.
 
 > **Existing version**: the 0.2.6 documentation describes Guard as a **0.1.0 pre-release beta**. This page collects existing capabilities; it publishes no package and changes no download or trust configuration.
+
+**Future development**: the [Galguard Future Development Guide](docs/Galguard_Development_Guide.md) covers research, protection boundaries, recovery architecture, capacity planning and milestone acceptance. It is a development proposal, not a list of shipped features.
 
 ## Baselines and file changes
 
